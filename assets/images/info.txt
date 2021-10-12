@@ -1,0 +1,1 @@
+This dir stores images contained in website.
