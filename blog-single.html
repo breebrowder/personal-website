@@ -42,12 +42,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto " href="index.html#projects">Projects</a></li>
+          <li><a class="nav-link scrollto " href="index.html#work">Resume</a></li>
           <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -86,7 +86,7 @@
           <div class="col-md-8">
             <div class="post-box">
               <div class="post-thumb">
-                <img src="assets/img/post-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/unix-shell.png" class="img-fluid" alt="">
               </div>
               <div class="post-meta">
                 <h1 class="article-title">Under the Hood: Unix Remix</h1>
@@ -120,14 +120,19 @@
                 slash, indicates the next directory in the hierarchy on the level below the previous.
                 When the user searches for content, files or directories, this shows the order or path
                 that is taken when the system searches for the file or directory. It looks just like a tree!
+                <img src="assets/img/file_system_tree.png" class="img-fluid" alt="">
                 </p>
                 <p>
                 <h4>What is a Shell?</h4>
-                It is, in all its essence, the command line interface (CLI). Its interface basically reads a command
-                like <b>cd</b> (change directory) then passes it to the operating system to carry out.
-                Now you understand the inner workings of the file system on your computer, but without the Shell,
-                a typical user would see a file system on their computer as icons of folders that have titles, and
-                then once clicked, contain files that are held. Here is what it looks like from a Windows computer.
+                <p>It is, in all its essence, the command line interface (CLI). Its interface basically reads a command
+                  like <b>cd</b> (change directory) then passes it to the operating system to carry out.
+                  Now you understand the inner workings of the file system on your computer, but without the Shell,
+                  a typical user would see a file system on their computer as icons of folders that have titles, and
+                  then once clicked, contain files that are held. Here is what it looks like from a Windows computer.
+                <p>
+                  <img src="assets/img/gui.png" class="img-fluid" alt="">
+                <ul>Graphical User Interface (GUI)</ul>
+                </p>
                 </p>
                 <p>
                 <h4>Working with ‘LS’</h4>
@@ -150,11 +155,17 @@
                 to give you more information on the contents in that current directory.
                 </p>
                 <p>
+                  <img src="assets/img/root-directory.png" class="img-fluid" alt="">
+                </p>
+                <p>
                   The <b>-l</b> option can be passed alongside it in some instances. What this option does is format the
                   output
                   this time, in a long list. When contents are displayed using the <b>-l</b> option, it gives detailed
                   information that is
                   attributed to the content.
+                </p>
+                <p>
+                  <img src="assets/img/long_list.png" class="img-fluid" alt="">
                 </p>
                 <p>
                   Another difference you may have noticed here is that the list now contains new pieces of code that
@@ -204,6 +215,7 @@
                   can run
                   the file in the terminal by using the syntax <b>./filename</b>.
                 </p>
+                <p><img src="assets/img/last_shell.png" class="img-fluid" alt=""></p>
                 <p>
                 <h4>What REALLY Goes Into It?</h4>
                 <p>
@@ -296,9 +308,9 @@
             </div>
             <div class="box-comments">
               <div class="title-box-2">
-                <h4 class="title-comments title-left">Comments (1)</h4>
+                <h4 class="title-comments title-left">Comments (0)</h4>
               </div>
-              <ul class="list-comments">
+              <!--<ul class="list-comments">
                 <li>
                   <div class="comment-avatar">
                     <img src="assets/img/testimonial-2.jpg" alt="">
@@ -312,7 +324,6 @@
                     <a href="3">Reply</a>
                   </div>
                 </li>
-                <!--
                 <li>
                   <div class="comment-avatar">
                     <img src="assets/img/testimonial-4.jpg" alt="">
@@ -398,45 +409,8 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="widget-sidebar sidebar-search">
-              <h5 class="sidebar-title">Search</h5>
-              <div class="sidebar-content">
-                <form>
-                  <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-                    <span class="input-group-btn">
-                      <button class="btn btn-secondary btn-search" type="button">
-                        <span class="bi bi-search"></span>
-                      </button>
-                    </span>
-                  </div>
-                </form>
-              </div>
-            </div>
             <div class="widget-sidebar">
-              <h5 class="sidebar-title">Recent Post</h5>
-              <div class="sidebar-content">
-                <ul class="list-sidebar">
-                  <li>
-                    <a href="#">Atque placeat maiores.</a>
-                  </li>
-                  <li>
-                    <a href="#">Lorem ipsum dolor sit amet consectetur</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                  <li>
-                    <a href="#">Atque placeat maiores nam quo autem</a>
-                  </li>
-                  <li>
-                    <a href="#">Nam quo autem exercitationem.</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="widget-sidebar">
-              <h5 class="sidebar-title">2 contributors</h5>
+              <h5 class="sidebar-title">AUTHORS</h5>
               <div class="sidebar-content">
                 <ul class="list-sidebar">
                   <p>Bree Browder</p>
