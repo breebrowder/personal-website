@@ -1337,3 +1337,219 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# RESUME
+--------------------------------------------------------------*/
+
+.resume-info {
+  margin:0;
+  padding:0;
+  list-style-type:none
+}
+
+.resume-info>li+li {
+  margin-top:12px
+}
+
+
+.resume-info>li>strong {
+  color:#171717;
+  padding-right:5px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Carousel */
+
+.bg-carousel {
+  background-color: #C271ff;
+}
+
+.carousel-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-text {
+  font-size: 2.2rem;
+  color: white;
+}
+
+.carousel-img {
+  width: 14.8rem;
+  height: 14.8rem;
+}
+
+.control-button {
+  width: 30rem;
+  height: 5rem;
+}
+
+.carousel-control-prev {
+  bottom: 16rem;
+}
+
+.carousel-control-next {
+  bottom: 16rem;
+}
+
+.heading-in-carousel {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+@media screen and (min-width: 768px) {
+  .carousel-flex {
+      flex-direction: row;
+  }
+  .mt-8 {
+      margin-top: 2rem;
+  }
+  .lg-carousel-img {
+      justify-content: center;
+  }
+  .carousel-flex {
+      margin-left: 15rem;
+      margin-right: 15rem;
+  }
+
+  .carousel-control-prev {
+      bottom: 3rem;
+  }
+  
+  .carousel-control-next {
+      bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel-flex {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+/* Cards */
+
+.popular-card {
+  width: 25.5rem;
+}
+
+.popular-card-img {
+  width: 25.5rem;
+
+}
+.popular-card-play {
+  width: 6.4rem;
+  height: auto;
+  position: absolute;
+  left: 95px;
+  top: 45px;
+  z-index: 1;
+}
+
+.popular-card-title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
+.popular-card-title + p {
+  color: gray;
+}
+.profile-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.star-size {
+  width: 1.5rem;
+}
+
+.profile-small + h5 {
+  font-size: 1.4rem;
+  color: #C271ff;
+}
+
+.card-body h5 {
+  color: #C271ff;
+}
+
+/* smile */
+
+.img-profile-smile {
+  width: 4.5rem;
+}
+
+.smile-content {
+  font-size: 1.4rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #071629;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.footer--image {
+  width: 16rem;
+  align-self: center;
+  margin-top: 3rem;
+}
+
+.footer--social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer--social .block--image {
+  color: white;
+  font-size: 3rem;
+  margin: 2rem 1rem;
+}
+
+
+/*--------------------------------------------------------------
+# RESUME
+--------------------------------------------------------------*/
+
+.resume-info {
+  margin:0;
+  padding:0;
+  list-style-type:none
+}
+
+.resume-info>li+li {
+  margin-top:12px
+}
+
+
+.resume-info>li>strong {
+  color:#171717;
+  padding-right:5px
+}
