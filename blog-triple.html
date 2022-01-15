@@ -5,13 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>DevFolio Bootstrap Portfolio Template - Blog Single</title>
+    <title>Bree Browder - Blog</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="assets/img/favicon.ico" rel="icon">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +44,7 @@
                     <li><a class="nav-link scrollto " href="index.html#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.html#projects">Projects</a></li>
-                    <li><a class="nav-link scrollto " href="index.html#work">Resume</a></li>
+                    <li><a class="nav-link scrollto " href="index.html#resume">Resume</a></li>
                     <li><a class="nav-link scrollto " href="#blog">Blog</a></li>
                     <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                 </ul>
@@ -86,7 +85,7 @@
                     <div class="col-md-8">
                         <div class="post-box">
                             <div class="post-thumb">
-                                <img src="assets/img/boot.png" class="img-fluid" alt="">
+                                <img src="assets/img/java_main.jpeg" class="img-fluid" alt="">
                             </div>
                             <div class="post-meta">
                                 <h1 class="article-title">Introduction to JavaScript</h1>
@@ -97,11 +96,11 @@
                                     </li>
                                     <li>
                                         <span class="bi bi-tag"></span>
-                                        <a href="#">Bootstrap, CSS</a>
+                                        <a href="#">JavaScript, Beginners Guide</a>
                                     </li>
                                     <li>
                                         <span class="bi bi-calendar-date"></span>
-                                        <a href="#">20 Sept 2021</a>
+                                        <a href="#">10 Dec 2021</a>
                                     </li>
                                 </ul>
                             </div>
@@ -124,69 +123,107 @@
                                 </p>
                                 <p>>> Example file name: <b>main.js</b></p>
                                 <p>
-                                All of the topics I will talk about today are discussed in an excellent, more in depth manner through this website: <a href>https://www.javascripttutorial.net/</a>. 
-                                I highly recommend checking it out, as it also includes things that are not mentioned in this post, but are just as important to know.
-                                </p>
+                                All of the topics I will talk about today are discussed in an excellent, more in depth manner through this website: <a href>https://www.javascripttutorial.net/</a>.</p> 
+                                <p>I highly recommend checking it out, as it also includes things that are not mentioned in this post, but are just as important to know.</p>
+                                <p>In order to better understand the JavaScript language, let us begin by talking about variables.</p>
                                 <h5>Variables</h5>
                                 <p>
                                 We use variables in JavaScript as a way to store the value of something to use later. Below are three ways to declare a variable in JavaScript.
-  
                                 </p>
                                 <p>
-                                    
+                                    <img src="assets/img/java_1.png" class="img-fluid rounded b-shadow-a" alt=""> 
                                 </p>
                                 <p>
-                                    
+                                    <b>var</b>
+                                    <p>This is a generic variable keyword.</p>
+                                </p>
                                 <p>
+                                        <b>let</b>
+                                        <p><b>let</b> will assign a variable just like var, but with slightly different behavior. It mostly differs by creating “block level scope”.</p>
                                 
                                 </p>
                                 <p>
-                                    <img src="assets/img/boot_3.jpeg" class="img-fluid rounded b-shadow-a" alt="">
-                                
-                                </p>
-                                <p>
-                                    
-                                </p>
-                                <h4></h4>
-                                <p>
-                                    
-                                </p>
-                                <p>
-                                   
+                                    <b>const</b>
+                                    <p>This is a variable that cannot be changed. It is short for “constant”.</p>
                             
-                                </p>
-                                
-                                </p>
-                                <h4></h4>
-                                <p>
+                            </p>
+                            <h5>Primitive Data Types (Strings, Numbers, Booleans)</h5>
+                                <p>Basically, “primitive” means that these are some of the most basic data types in JavaScript.</p>
                                 </p>
                                 <p>
-                                   
-                                </p>
+                                    <b>Strings</b>
+                                    <p>A string is a block of text. These blocks of text are always defined with quotation marks, whether single or double.</p>
+                            </p>
                                 <p>
+                                    <img src="assets/img/java_2.png" class="img-fluid rounded b-shadow-a" alt=""> 
                                     
                                 </p>
                                 <p>
-                                <h4></h4>
+                                    <b>Numbers</b>
+                                    <p>Numbers do NOT have quotes around them. They can be negative as well.</p>
+                            </p>
+                                <p>
+                                    <img src="assets/img/java_3.png" class="img-fluid rounded b-shadow-a" alt=""> 
+                                    
                                 </p>
                                 <p>
-                                    <img src="assets/img/terminal_boot.png" class="img-fluid rounded b-shadow-a" alt="">
+                                    <b>Booleans</b>
+                                    <p>Booleans are derived from lower-level software development. It powers binary code, which is the very core of 
+                                    computers! Binary code is just a series of both 0’s and 1’s (010101). These numbers represent either true or false. 
+                                    In JavaScript we use these Booleans to mean just that.
+                                    </p>
+                            </p>
+                                <p>
+                                    <img src="assets/img/java_4.png" class="img-fluid rounded b-shadow-a" alt=""> 
+                                    
+                                </p>
+                                <h5>Properties and Methods</h5>
+                                <p>Data types have built-in functionality known as <b>properties</b> and <b>methods</b>. These extend the functionality so that 
+                                we can gather information about, or manipulate the types. We will access both properties and methods using the <b>dot notation</b>. 
+                                First, we provide the name of the variable, a dot, then the name of the property or method.
                                 </p>
                                 <p>
-                                <p>
-                                    <img src="assets/img/boot_output.png" class="img-fluid rounded b-shadow-a" alt="">
+                                    <img src="assets/img/java_5.png" class="img-fluid rounded b-shadow-a" alt="">   
                                 </p>
                                 <p>
+                                    <b>Properties</b>
+                                    <p>With properties, we can access data from our data types. There are many different properties on every data type. 
+                                    Below, we are trying to access the length property of a string. By finding the length, it will tell us how many characters are in the string.
+                                    </p>
+                            </p>
+                                <p>
+                                    <img src="assets/img/java_6.png" class="img-fluid rounded b-shadow-a" alt=""> 
+                                    
                                 </p>
                                 <p>
-                                    YouTube video Bootstrap 4: <a
-                                        href="https://www.youtube.com/watch?v=hnCmSXCZEpU">here</a>
-                                </p>
+                                    <b>Methods</b>
+                                    <p>Methods are different from properties because they are followed with parenthesis. Take a look below at the .toString() method. It will 
+                                    convert a number or Boolean to a string.
+                                    </p>
+                            </p>
                                 <p>
-                                
+                                    <img src="assets/img/java_7.png" class="img-fluid rounded b-shadow-a" alt=""> 
                                 </p>
-                               
-                                <p>Thanks for reading along!</p>
+                                <h5>Functions</h5>
+                                <p>With functions, we can perform a variety of actions in order to return a final product. Fun fact: Methods are a type of function!
+                                </p>
+                                <p>Functions always begin with the function keyword. This lets whatever is running your program know what it is and to treat it as such. 
+                                Then, comes the actual name of the function, followed by open/close parenthesis and brackets. All of our code for the function resides between the brackets.</p>
+                                <p>
+                                    <img src="assets/img/java_8.png" class="img-fluid rounded b-shadow-a" alt="">   
+                                </p>
+                                <p>As seen above, I have declared a function (logsHelloWorld) and then set it up to console.log ‘hello world’. In order to make this function run, I needed to 
+                                write the function’s name again, followed by parenthesis after the brackets were closed. This is the syntax used to run a function.</p>
+                             <p>As mentioned earlier, this post is more to help introductory developers begin to develop a basic understanding of JavaScript before truly delving into the language. 
+                                I hope this information is as helpful to you all as it was to me as I was beginning to dip my feet into the world of JavaScript. Happy coding! Below, I will include 
+                                a few of my favorite JavaScript resources. For visual learners, there are also YouTube videos that teach the fundamentals you should know to get started in JavaScript!</p>
+                               <h5>Written Resources:</h5>
+                               <a href>https://www.w3schools.com/js/default.asp</a>
+                               <p>
+                               <h5>Youtube:</h5>
+                               <iframe width="560" height="315" src="https://www.youtube.com/embed/PkZNo7MFNFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               <iframe width="560" height="315" src="https://www.youtube.com/embed/2nZiB1JItbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                               </p>
                             
                             </div>
                         </div>
@@ -311,10 +348,10 @@
                             <div class="sidebar-content">
                                 <ul>
                                     <li>
-                                        <a href="#">Bootstrap</a>
+                                        <a href="#">JavaScript</a>
                                     </li>
                                     <li>
-                                        <a href="#">CSS</a>
+                                        <a href="#">Beginners Guide</a>
                                     </li>
                                 </ul>
                             </div>
