@@ -1187,7 +1187,7 @@ a:hover {
   margin-bottom: 3rem;
 }
 @media (min-width: 768px) {
-  .post-box,
+.post-box,
 .form-comments,
 .box-comments,
 .widget-sidebar {
