@@ -8,7 +8,7 @@
 47/home/vagrant/personal-website/src/sass/vendors1660781781163566919 1
 43/home/vagrant/personal-website/src/index.js1660781781159564919 0
 61/home/vagrant/personal-website/src/data/scrollRevealConfig.js1660781781159564919 0
-45/home/vagrant/personal-website/src/index.html1660784011570188346 0
+45/home/vagrant/personal-website/src/index.html1660787186480815457 0
 53/home/vagrant/personal-website/src/assets/favicon.ico1660781781151560918 0
 56/home/vagrant/personal-website/src/assets/brand-logo.png1660781781151560918 0
 53/home/vagrant/personal-website/src/assets/profile.jpg1660781781155562919 0
@@ -7590,7 +7590,7 @@
 69/home/vagrant/personal-website/node_modules/es-abstract/2020/floor.js1660781780227098929 0
 92/home/vagrant/personal-website/node_modules/@popperjs/core/dist/esm/dom-utils/getNodeName.js1660781779682826936 0
 83/home/vagrant/personal-website/node_modules/@babel/core/node_modules/source-map/lib1660781778274122951 1
-46/home/vagrant/personal-website/dist/index.html1660783997563188498 0
+46/home/vagrant/personal-website/dist/index.html1660787187009079450 0
 103/home/vagrant/personal-website/node_modules/dom-serializer/node_modules/entities/lib/maps/entities.json1660781780175072930 0
 75/home/vagrant/personal-website/node_modules/es-abstract/2016/UTF16Decode.js1660781780199084930 0
 84/home/vagrant/personal-website/node_modules/es-abstract/2017/StringGetOwnProperty.js1660781780203086930 0
@@ -7627,7 +7627,7 @@
 73/home/vagrant/personal-website/node_modules/node-forge/lib/cipherModes.js1660781780707338924 0
 108/home/vagrant/personal-website/node_modules/postcss-modules-extract-imports/node_modules/postcss/lib/node.js1660781780783376924 0
 65/home/vagrant/personal-website/node_modules/glob-parent/README.md1660781780267118929 0
-35/home/vagrant/personal-website/dist1660783997563188498 1
+35/home/vagrant/personal-website/dist1660787187013081451 1
 56/home/vagrant/personal-website/node_modules/ajv/lib/refs1660781779762866934 1
 69/home/vagrant/personal-website/node_modules/jquery/src/traversing/var1660781780383176928 1
 99/home/vagrant/personal-website/node_modules/@parcel/transformer-json/node_modules/json5/lib/util.js1660781779634802937 0
