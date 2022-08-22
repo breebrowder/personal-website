@@ -5,6 +5,8 @@
 - Modern and Simple UI design
 - Single Page Apllication (SPA)
 - Accessible color scheme
+- Some alt text to improve SEO
+- Accessibility Menu Plugin
 - Fully responsive
 - Web Safe Font Style - Montserrat
 
