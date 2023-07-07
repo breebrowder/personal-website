@@ -10769,9 +10769,6 @@ section {
   bottom: 0;
   right: 0;
   z-index: -1;
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
 }
 @media (max-width: 37.5em) {
   #hero {
