@@ -10640,7 +10640,7 @@ section {
   }
 }
 #about {
-  background-color: #97B1A6;
+  background-color: rgba(72, 130, 72, 0.933);
   background-image: linear-gradient(135deg, #97B1A6 0%, #97B1A6 100%);
   color: #fff;
   height: 100%;
@@ -10769,6 +10769,9 @@ section {
   bottom: 0;
   right: 0;
   z-index: -1;
+  background: url("hero-img.db67c553.svg");
+  background-position: center;
+  background-size: cover;
 }
 @media (max-width: 37.5em) {
   #hero {
